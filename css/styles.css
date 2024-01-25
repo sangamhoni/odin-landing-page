@@ -118,7 +118,7 @@ a {
 
 .usp-cards {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 .usp-card {
    width: 220px;
@@ -128,7 +128,7 @@ a {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
    gap: 15px;
 }
 
@@ -138,7 +138,29 @@ a {
    text-align: center;
 }
 
-
 .usp-card img{
    width: 80px;
 }
+
+.testimonial {
+   background-color: #D4A373;
+}
+
+.testimonial .container{
+   padding: 140px 0;
+   max-width: 900px;
+}
+
+.testimonial .quote{
+   font-size: 30px;
+   line-height: 1.3em;
+   font-style: italic;
+   text-align: justify;
+}
+
+.testimonial .dog {
+   font-size: 24px;
+   font-weight: bold;
+   margin-top: 20px;
+   text-align: end;
+} 
