@@ -85,7 +85,6 @@ a {
 .landing-page h1{
    font-size: 40px;
    line-height: 1.1em;
-   font-weight: bold;
 }
 
 .landing-page p{
@@ -105,4 +104,41 @@ a {
 
 .landing-page .landing-image{
    width: 80%;
+}
+
+.usp .container {
+   padding-bottom: 150px;
+}
+.usp .container h1{
+   font-size: 40px;
+   line-height: 1.1em;
+   display: table;
+   margin: 80px auto;
+}
+
+.usp-cards {
+   display: flex;
+   justify-content: space-between;
+}
+.usp-card {
+   width: 220px;
+   border: 3px solid #181513;
+   border-radius: 1em;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 15px;
+}
+
+.usp-card p{
+   font-size: 18px;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+.usp-card img{
+   width: 80px;
 }
