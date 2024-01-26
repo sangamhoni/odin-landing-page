@@ -12,9 +12,9 @@ body{
    font-size: 16px;
    line-height: 1.5rem;
    color: #F1F1F1;
-   color:#181513;
-   /* background-color: #181513; */
-   background-color: #d4b799;
+   color:rgba(24, 21, 19, 1);
+   /* background-color: rgba(24, 21, 19, 1); */
+   background-color: rgba(212, 183, 153, 1);
 }
 
 img {
@@ -43,8 +43,8 @@ a {
 
 /* main code */
 .navbar{
-   color: #d4b799;
-   background-color: #181513;  
+   color: rgba(212, 183, 153, 1);
+   background-color: rgba(24, 21, 19, 1);  
    position: fixed;
    width: 100vw;
    top: 0;
@@ -71,9 +71,9 @@ a {
 /* hero section */
 .landing-page{
    margin-top: 70px;
-   color : #d4b799;
-   background-color:  #181513;
-   border-top: 1px solid #d4b799;
+   color : rgba(212, 183, 153, 1);
+   background-color:  rgba(24, 21, 19, 1);
+   border-top: 1px solid rgba(212, 183, 153, 1);
 }
 
 .landing-page .container{
@@ -94,9 +94,9 @@ a {
 }
 
 .landing-page button{
-   border: 0.08rem solid #d4b799;
-   background-color:  #181513;
-   color: #d4b799;
+   border: 0.08rem solid rgba(212, 183, 153, 1);
+   background-color:  rgba(24, 21, 19, 1);
+   color: rgba(212, 183, 153, 1);
    border-radius: .25rem;
    font-weight: 600;
    min-height: 3rem;
@@ -126,7 +126,7 @@ a {
 }
 .usp-card {
    width: 220px;
-   border: 3px solid #181513;
+   border: 3px solid rgba(24, 21, 19, 1);
    border-radius: 1em;
    padding: 20px;
    display: flex;
@@ -162,6 +162,7 @@ a {
    line-height: 1.3em;
    font-style: italic;
    text-align: justify;
+   color: rgba(24, 21, 19, 0.8);
 }
 
 .testimonial .dog {
@@ -171,3 +172,91 @@ a {
    text-align: end;
 } 
 
+
+/* footer section */
+footer .container {
+   padding: 10px 0;
+}
+
+footer h2{
+   margin: 15px 0;
+   font-weight: 900;
+}
+
+.footer-content{
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-content .right-content .links{
+   display: flex;
+   gap: 70px;
+}
+
+.links .right-links {
+   flex-basis: 60%;
+}
+
+.footer-content .left-content {
+   flex-basis: 35%;
+   color: rgba(24, 21, 19, 0.8);
+}
+
+.right-links ul>li:nth-child(1), .left-links ul>li:nth-child(1) {
+   font-weight: bold;
+   font-size: 1.1em;
+   margin-bottom: 5px;
+   color: rgba(24, 21, 19, 0.8);
+}
+
+.socials  ul{
+   display: flex;
+   gap: 30px;
+   margin: 30px 0;
+}
+
+.socials ul li{
+   font-size: 25px;
+}
+
+.left-content p {
+   font-weight: 600;
+}
+
+.left-content .newsletter, .left-content button{
+   background-color: rgba(212, 183, 153, 1);
+   border: 0.14em solid rgba(24, 21, 19, 0.3);
+   padding: 15px;
+   margin: 10px 0;
+   border-radius: 5px 0 0 5px;
+   font-weight: bold;
+   color: rgba(24, 21, 19, 0.8);
+}
+
+.left-content form button {
+   border-radius: 0 5px 5px 0;
+   color: rgba(24, 21, 19, 1);
+   margin-left: -6px;
+}
+
+input[type="checkbox"] {
+   width: 1rem;
+   height: 1rem;
+   accent-color:rgba(212, 183, 153, 1);
+}
+
+form label {
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+
+
+footer hr {
+   border: 0.02em solid rgba(24, 21, 19, 0.5);
+   margin-bottom: 15px;
+}
+
+footer .container>p {
+   line-height: 1.6em;
+   color: rgba(24, 21, 19, 0.8);
+}
